@@ -3,7 +3,9 @@ resource "aws_instance" "my_ec2" {
   instance_type = "t2.nano"i
 
   tags = {
+
     Name = "My instance"
+
   }
 }
 
